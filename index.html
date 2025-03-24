@@ -3,125 +3,148 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Personal website of Subash Dharel, a passionate educator and community enthusiast." />
+    <meta name="description" content="Personal Website of Subash Dharel" />
     <meta name="author" content="Subash Dharel" />
-    <title>Subash Dharel - About Me</title>
-    <!-- Link to your stylesheets and fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Lato&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" rel="stylesheet"> <!-- Animation library -->
-    <link href="css/styles.css" rel="stylesheet" />
+    <title>Subash Dharel - Official Website</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    
+    <!-- Add Font Awesome CDN for social media icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" />
+    
+    <!-- Custom CSS -->
     <style>
         body {
             font-family: 'Lato', sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #f4f6f9;
             margin: 0;
             padding: 0;
+            color: #333;
         }
-        .masthead {
-            background: #007bff;
+        header {
+            background-color: #007bff;
             color: white;
-            padding: 100px 0;
+            padding: 60px 0;
             text-align: center;
         }
-        .masthead-avatar {
+        header img {
+            border-radius: 50%;
             width: 150px;
             height: 150px;
-            border-radius: 50%;
-            transition: transform 0.3s;
+            object-fit: cover;
+            border: 5px solid white;
         }
-        .masthead-avatar:hover {
-            transform: scale(1.1);
-        }
-        .masthead-heading {
-            font-size: 3rem;
+        header h1 {
+            font-size: 2.5em;
             margin-top: 20px;
-            text-transform: uppercase;
-            font-weight: bold;
         }
-        .masthead-subheading {
-            font-size: 1.5rem;
-            font-weight: lighter;
-            margin-bottom: 30px;
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 300;
         }
-        .masthead nav a {
+        .nav {
+            margin-top: 20px;
+        }
+        .nav a {
+            font-size: 1.5em;
+            margin: 0 10px;
             color: #fff;
-            margin: 0 15px;
-            font-size: 24px;
+            text-decoration: none;
             transition: color 0.3s;
         }
-        .masthead nav a:hover {
-            color: #f39c12;
+        .nav a:hover {
+            color: #f8f9fa;
         }
-        .about-section {
+        section {
             padding: 60px 20px;
             text-align: center;
-            background-color: white;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            margin-top: -50px;
         }
-        .about-section h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            animation: fadeInUp 1s ease-out;
+        .section-heading {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-transform: uppercase;
         }
-        .about-section p {
-            font-size: 1.2rem;
+        .section-content {
+            font-size: 1.2em;
             line-height: 1.6;
-            color: #555;
-            animation: fadeInUp 1s ease-out;
-            animation-delay: 0.5s;
+            margin-bottom: 30px;
         }
-        @keyframes fadeInUp {
-            0% {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .social-icons a {
+            font-size: 1.5em;
+            margin: 0 15px;
+            color: #fff;
+        }
+        .social-icons a:hover {
+            color: #007bff;
         }
     </style>
 </head>
 <body>
-    <!-- Masthead Section -->
-    <header class="masthead animate__animated animate__fadeIn">
-        <div class="container d-flex align-items-center flex-column">
-            <img class="masthead-avatar mb-5 animate__animated animate__zoomIn" src="subash.png" alt="Subash Dharel Avatar" />
-            <h1 class="masthead-heading animate__animated animate__fadeInUp">Subash Dharel</h1>
-            <p class="masthead-subheading font-weight-light mb-0 animate__animated animate__fadeInUp">Passionate Educator | Lifelong Learner | Community Builder</p>
-            <nav>
-                <a href="https://www.youtube.com/channel/UCgd0pM8tbST3RXYwzLyaivg" target="_blank" class="animate__animated animate__fadeIn animate__delay-1s"><i class="fab fa-youtube"></i></a>
-                <a href="https://www.facebook.com/dharel.subash" target="_blank" class="animate__animated animate__fadeIn animate__delay-1s"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://github.com/subashdharel" target="_blank" class="animate__animated animate__fadeIn animate__delay-1s"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/subash-dharel-2a5b13135" target="_blank" class="animate__animated animate__fadeIn animate__delay-1s"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/isubash_143" target="_blank" class="animate__animated animate__fadeIn animate__delay-1s"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/isubash_143" target="_blank" class="animate__animated animate__fadeIn animate__delay-1s"><i class="fab fa-twitter"></i></a>
-            </nav>
-        </div>
+    <!-- Header Section -->
+    <header>
+        <img src="subash.png" alt="Subash Dharel" />
+        <h1>Subash Dharel</h1>
+        <p>A Dedicated Teacher | Lifelong Learner | Passionate About Education</p>
+        <nav class="nav social-icons">
+            <a href="https://www.youtube.com/channel/UCgd0pM8tbST3RXYwzLyaivg" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/dharel.subash" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/subashdharel" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/subash-dharel-2a5b13135" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/isubash_143" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/isubash_143" target="_blank"><i class="fab fa-twitter"></i></a>
+        </nav>
     </header>
 
-    <!-- About Me Section -->
-    <section class="about-section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hello! I'm Subash Dharel, a dedicated educator with a passion for shaping the future of young minds. I believe in the power of education to create opportunities, empower individuals, and bring about positive change. My goal is not only to teach but to inspire, guide, and help students realize their potential.</p>
-            <p>In addition to teaching, I am deeply involved in community work, constantly seeking ways to collaborate, share knowledge, and build a better society. Whether through personal projects or professional engagements, I aim to make a lasting impact wherever I can.</p>
-            <p>I am always open to new ideas, opportunities, and collaborations that align with my values of integrity, dedication, and responsibility. Let's connect and make a difference together!</p>
-        </div>
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-heading">About Me</h2>
+        <p class="section-content">
+            Hi, I’m Subash Dharel, an educator dedicated to fostering an environment where students can grow and reach their full potential. With a passion for teaching and learning, I strive to make a lasting impact on the young minds I work with. In addition to teaching, I believe in continuous personal and professional growth. I’m always exploring new teaching methods and staying updated with the latest trends in education.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-heading">Skills & Expertise</h2>
+        <p class="section-content">
+            I bring a diverse set of skills that contribute to my success as a teacher:
+        </p>
+        <ul style="list-style-type: none; font-size: 1.25em;">
+            <li>Classroom Management</li>
+            <li>Lesson Planning & Delivery</li>
+            <li>Public Speaking & Communication</li>
+            <li>Data-Driven Instruction</li>
+            <li>Team Collaboration</li>
+            <li>Mentorship & Coaching</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-heading">Get in Touch</h2>
+        <p class="section-content">
+            I would love to connect with you! Whether it's for collaborations, speaking engagements, or any questions, feel free to reach out.
+        </p>
+        <p>Email: <a href="mailto:subashdharel@gmail.com">subashdharel@gmail.com</a></p>
+        <p>Phone: <a href="tel:+9779845594137">+977 9845594137</a></p>
     </section>
 
     <!-- Footer Section -->
-    <footer class="text-center py-4">
-        <div class="container">
-            <small>&copy; 2025 Subash Dharel | All Rights Reserved</small>
-        </div>
+    <footer>
+        <p>&copy; 2025 Subash Dharel. All rights reserved.</p>
     </footer>
 
-    <!-- Bootstrap and custom JS -->
+    <!-- Optional Bootstrap JS and Popper.js for mobile responsiveness -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
 </body>
 </html>
